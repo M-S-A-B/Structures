@@ -9,12 +9,17 @@ Title: Structures and Classes
 Aim: To learn Object oriented programming in C++
 
 Theory: Differences between structures and classes:
-        Class:                                                  Structures:
-1) Members of a class are private by default.    1) Members of a structure are public by default.
-2) It is normally used for data abstraction      2)  It is normally used for the grouping of data
+        Class:                                                 
+1) Members of a class are private by default.
+2) 2) It is normally used for data abstraction     
    and further inheritance.
-3) Null values are allowed in classes.           3) Null values are not permitted in structures
-4) A class is a reference type.                  4) A structure is a value type.
+3) Null values are allowed in classes.          
+4) A class is a reference type.            
+        Structures:
+1) Members of a structure are public by default.
+2) It is normally used for the grouping of data
+3) Null values are not permitted in structures
+4) A structure is a value type.
 
 
 Structure is type/collection of dataset. It can have different types of data in it.The variables in a structure are public by default. 
